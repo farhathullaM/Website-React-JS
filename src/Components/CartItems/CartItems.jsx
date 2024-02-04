@@ -34,6 +34,9 @@ const CartItems = () => {
               <hr />
               </div>
             }
+            else{
+            return null;
+          }
         })}
     </div>
   )
